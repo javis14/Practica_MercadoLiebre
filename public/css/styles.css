@@ -1,0 +1,81 @@
+/* PALETA DE COLORES
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;
+*/
+
+/* -------- CONFIGURACION GLOBAL -------- */
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+/* ----------- HEADER HEADER HEADER ------------- */
+header {
+    background-color: #EAC926;
+}
+
+header p {
+    text-align: center;
+}
+
+.buscador {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.burger-menu {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.burger-menu button {
+    width: 40px;
+    height: 40px;
+    background-color: #1259c3;
+    border-radius: 5px;
+}
+
+.burger-menu i {
+    font-size: small;
+    color: white;
+}
+
+
+/* ----------- MAIN MAIN MAIN ------------- */
+h3 {
+    font-size: 24px;
+}
+
+.precio {
+    font-size: 18px;
+}
+
+.descuento {
+    font-size: 16px;
+}
+
+.descripcion {
+    font-size: 16px;
+}
+
+
+/* ----------- FOOTER FOOTER FOOTER ------------- */
+footer {
+    text-align: center;
+}
+
+footer i {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
