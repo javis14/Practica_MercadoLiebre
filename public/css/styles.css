@@ -11,6 +11,14 @@ Verde: #39b54a;
 * {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+title {
+    display: none;
 }
 
 /* ----------- HEADER HEADER HEADER ------------- */
@@ -22,8 +30,17 @@ header p {
     text-align: center;
 }
 
+header nav {
+    display: none;
+}
+
+header img {
+    width: 100vw;
+}
+
 .buscador {
-    text-align: center;
+    display: flex;
+    margin: auto;
 }
 
 ul {
@@ -40,6 +57,7 @@ a {
 }
 
 .burger-menu button {
+    margin: auto;
     width: 40px;
     height: 40px;
     background-color: #1259c3;
@@ -53,8 +71,40 @@ a {
 
 
 /* ----------- MAIN MAIN MAIN ------------- */
+main {
+    margin: auto;
+    width: 90vw;
+}
+
+main div {
+    margin-bottom: 10px;
+}
+
 h3 {
     font-size: 24px;
+}
+
+.articulo div {
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+}
+
+.articulo img {
+    width: 100%;
+}
+
+.icono-envio {
+    border: solid 2px green;
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+}
+
+main i {
+    color: green;
+    font-size: 1.5em;
+    margin-top: 0.4em;
+    margin-left: 0.4em;
 }
 
 .precio {
@@ -63,9 +113,11 @@ h3 {
 
 .descuento {
     font-size: 16px;
+    color: green;
 }
 
 .descripcion {
+    display: none;
     font-size: 16px;
 }
 
@@ -79,3 +131,25 @@ footer i {
     font-size: 2em;
     margin-bottom: 10px;
 }
+
+/* ESTILOS PARA TABLETS */
+@media (min-width:361px) {
+    .descripcion {
+        display: block;
+    }
+
+    .articulo {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    header nav {
+        display: block;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+}
+
+/* ESTILOS PARA DESKTOP */
+@media (min-width:769px) {}
