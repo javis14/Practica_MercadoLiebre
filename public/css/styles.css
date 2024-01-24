@@ -26,14 +26,18 @@ header {
     background-color: #EAC926;
 }
 
-header img {
+.header-top img {
+    padding: 20px;
     width: 100vw;
-    margin-bottom: 10px;
+    max-width: 600px;
+    margin: auto;
 }
 
 .buscador {
     display: flex;
+    /* mantiene el ancho de los elementos */
     flex-wrap: wrap;
+    flex-direction: row;
     margin: 0px 10px 10px 10px;
 }
 
@@ -44,7 +48,7 @@ header img {
 }
 
 .buscador button {
-    width: 30px;
+    width: 26px;
     height: 26px;
     margin: auto;
     margin-left: 0;
@@ -52,6 +56,7 @@ header img {
 
 .buscador i {
     font-size: 18px;
+    color: #03264C;
 }
 
 header p {
@@ -59,18 +64,18 @@ header p {
     margin-bottom: 10px;
 }
 
+header i {
+    font-size: 14px;
+}
+
 header nav {
-    margin-left: 10px;
-    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
     display: none;
 }
 
 header li {
     margin-bottom: 5px;
-}
-
-ul {
-    list-style-type: none;
 }
 
 a {
@@ -94,20 +99,27 @@ a {
     color: white;
 }
 
+header .banner img {
+    width: 100vw;
+}
 
 /* ----------- MAIN MAIN MAIN ------------- */
 main {
     margin: auto;
     width: 90vw;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
 main div {
-    margin-bottom: 10px;
+    margin: 10px;
 }
 
 main section {
     margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 h3 {
@@ -115,36 +127,54 @@ h3 {
     margin-bottom: 10px;
 }
 
+main .articulo {
+    max-width: 300px;
+}
+
 .articulo div {
     border-top: solid 1px #ebebeb;
     padding: 15px;
+
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.articulo div>.icono-envio {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
 }
 
 .articulo img {
     width: 100%;
 }
 
-.icono-envio {
-    border: solid 2px green;
-    width: 3em;
-    height: 3em;
-    border-radius: 50%;
-}
-
 main i {
-    color: green;
-    font-size: 1.5em;
-    margin-top: 0.4em;
-    margin-left: 0.4em;
+    color: #39b54a;
+    font-size: 16px;
 }
 
 .precio {
     font-size: 18px;
+    width: 30%;
+    /* flex-grow: 0.3; */
 }
 
 .descuento {
     font-size: 16px;
-    color: green;
+    color: #39b54a;
+    width: 70%;
+    /* flex-grow: 0.7; */
+    align-self: center;
 }
 
 .descripcion {
@@ -171,12 +201,26 @@ footer div {
     margin-bottom: 10px;
 }
 
-/* ESTILOS PARA TABLETS */
-@media (min-width:361px) {
+/* ESTILOS PARA TABLETS ------------------------------------------------------*/
+@media (min-width:426px) {
     * {
         font-size: 14px;
     }
 
+    /* HEADER ------------------------------*/
+    header nav {
+        display: block;
+    }
+
+    header nav a {
+        font-size: 16px;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    /* MAIN --------------------------------*/
     .descripcion {
         display: block;
     }
@@ -185,14 +229,16 @@ footer div {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
 
-    header nav {
-        display: block;
-    }
+    /* FOOTER ------------------------------*/
 
-    .burger-menu {
-        display: none;
-    }
 }
 
-/* ESTILOS PARA DESKTOP */
-@media (min-width:769px) {}
+/* ESTILOS PARA DESKTOP -----------------------------------------------------*/
+@media (min-width:769px) {
+    /* HEADER ------------------------------*/
+
+    /* MAIN --------------------------------*/
+
+    /* FOOTER ------------------------------*/
+
+}
