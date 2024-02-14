@@ -37,6 +37,10 @@ header {
     margin: auto;
 }
 
+header form {
+    display: flex;
+}
+
 .buscador {
     width: 50vw;
     display: flex;
@@ -134,7 +138,7 @@ main section {
 }
 
 .titulo-seccion {
-    width: 90vw;
+    width: 100%;
     margin: auto;
 }
 
@@ -281,6 +285,11 @@ footer div {
     /* HEADER ------------------------------*/
 
     /* MAIN --------------------------------*/
+    .titulo-seccion h3 {
+        font-size: 30px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
 
     /* FOOTER ------------------------------*/
 
