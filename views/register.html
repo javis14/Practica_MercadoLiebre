@@ -15,35 +15,37 @@
 
 <body>
     <header>
-        <div class="header-top">
-            <div class="header-logo-buscador">
-                <a href="/"><img src="images/logo-mercado-liebre.svg" alt="no se encontro imagen" class="logo"></a>
-                <div class="buscador">
-                    <input placeholder="Buscar productos, marcas">
-                    <button><i class="fas fa-search"></i></button>
+        <div class="header-main">
+            <div class="header-top">
+                <div class="header-logo-buscador">
+                    <a href="#"><img src="images/logo-mercado-liebre.svg" alt="no se encontro imagen" class="logo"></a>
+                    <form action="/" method="get">
+                        <div class="buscador">
+                            <input placeholder="Buscar productos, marcas">
+                            <button type="submit"><i class="fas fa-search"></i></button>
+                        </div>
+                    </form>
                 </div>
+                <p><i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjeta de credito</p>
             </div>
-            <p><i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjeta de credito</p>
+            <nav>
+                <ul class="navbar-principal">
+                    <li><a href="#">Ofertas</a></li>
+                    <li><a href="#">Tiendas oficiales</a></li>
+                    <li><a href="#">Vender</a></li>
+                    <li><a href="#">Ayudar</a></li>
+                </ul>
+                <ul class="navbar-user">
+                    <li><a href="/registro">Creá tu cuenta <i class="far fa-address-card"></i></a></li>
+                    <li><a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+                    <li><a href="#">Mis compras <i class="fas fa-shopping-basket"></i></a></li>
+                </ul>
+            </nav>
+            <div class="burger-menu">
+                <button><i class="fas fa-bars"></i></button>
+            </div>
         </div>
-        <nav>
-            <ul class="navbar-principal">
-                <li><a href="#">Ofertas</a></li>
-                <li><a href="#">Tiendas oficiales</a></li>
-                <li><a href="#">Vender</a></li>
-                <li><a href="#">Ayudar</a></li>
-            </ul>
-            <ul class="navbar-user">
-                <li><a href="/registro">Creá tu cuenta <i class="far fa-address-card"></i></a></li>
-                <li><a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
-                <li><a href="#">Mis compras <i class="fas fa-shopping-basket"></i></a></li>
-            </ul>
-        </nav>
-        <div class="burger-menu">
-            <button><i class="fas fa-bars"></i></button>
-        </div>
-        <div class="banner">
-            <img src="images/img-home-banner.jpg" alt="no se encontro la imagen" class="banner">
-        </div>
+        <img src="images/img-home-banner.jpg" alt="no se encontro la imagen" class="banner">
     </header>
 
     <main>

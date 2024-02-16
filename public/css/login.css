@@ -27,6 +27,7 @@ main h1 {
     width: 90vw;
     margin: auto;
     text-align: center;
+    margin-top: 162px;
 }
 
 .form-register {
@@ -70,6 +71,12 @@ form .buttons-form button {
     padding: 5px 20px;
     font-size: 16px;
     color: white;
+
+    transition: all 0.4s;
+}
+
+form .buttons-form button:hover {
+    background-color: #0022AA;
 }
 
 form .buttons-form .btn-submit {
@@ -91,6 +98,10 @@ form .buttons-form .btn-submit {
         font-size: 30px;
     }
 
+    .main-content {
+        margin-top: 135px;
+    }
+
     /* FOOTER ------------------------------*/
 
 }
@@ -100,6 +111,9 @@ form .buttons-form .btn-submit {
     /* HEADER ------------------------------*/
 
     /* MAIN --------------------------------*/
+    .main-content {
+        margin-top: 160px;
+    }
 
     /* FOOTER ------------------------------*/
 
