@@ -19,7 +19,7 @@ Verde: #39b54a;
 
 /* MAIN ------------------------------------*/
 main h1 {
-    font-size: 20px;
+    font-size: 24px;
     margin-bottom: 10px;
 }
 
@@ -27,21 +27,22 @@ main h1 {
     width: 90vw;
     margin: auto;
     text-align: center;
-    margin-top: 162px;
+    margin-top: 180px;
 }
 
 .form-register {
     width: 90vw;
     margin: auto;
+    margin-bottom: 100px;
 }
 
-form div {
+main form div {
     width: 80%;
     margin: auto;
     margin-bottom: 10px;
 }
 
-form input {
+main form input {
     width: 100%;
     max-width: 260px;
     padding: 5px;
@@ -50,23 +51,23 @@ form input {
     /* margin: auto; */
 }
 
-form .input-manual input {
+main form .input-manual input {
     margin: auto;
 }
 
-form div label {
+main form div label {
     width: 100%;
     max-width: 260px;
     margin: auto;
     margin-bottom: 5px;
 }
 
-form .buttons-form {
+main form .buttons-form {
     display: flex;
     padding: 10px;
 }
 
-form .buttons-form button {
+main form .buttons-form button {
     margin: auto;
     padding: 5px 20px;
     font-size: 16px;
@@ -75,11 +76,11 @@ form .buttons-form button {
     transition: all 0.4s;
 }
 
-form .buttons-form button:hover {
+main form .buttons-form button:hover {
     background-color: #0022AA;
 }
 
-form .buttons-form .btn-submit {
+main form .buttons-form .btn-submit {
     background-color: #39b54a;
     border-radius: 5px;
     border: 0;
@@ -99,7 +100,7 @@ form .buttons-form .btn-submit {
     }
 
     .main-content {
-        margin-top: 135px;
+        margin-top: 150px;
     }
 
     /* FOOTER ------------------------------*/
@@ -112,7 +113,7 @@ form .buttons-form .btn-submit {
 
     /* MAIN --------------------------------*/
     .main-content {
-        margin-top: 160px;
+        margin-top: 200px;
     }
 
     /* FOOTER ------------------------------*/

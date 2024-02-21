@@ -35,13 +35,13 @@ main h1 {
     margin: auto;
 }
 
-form div {
+main form div {
     width: 80%;
     margin: auto;
     margin-bottom: 10px;
 }
 
-form input {
+main form input {
     width: 100%;
     max-width: 300px;
     padding: 5px;
@@ -50,11 +50,11 @@ form input {
     /* margin: auto; */
 }
 
-form .input-manual input {
+main form .input-manual input {
     margin: auto;
 }
 
-form div label {
+main form div label {
     width: 100%;
     max-width: 300px;
     margin: auto;
@@ -81,30 +81,30 @@ form div label {
     margin-left: 5px;
 }
 
-form .foto-usuario input {
+main form .foto-usuario input {
     background-color: white;
 }
 
-form .buttons-form {
+main form .buttons-form {
     display: flex;
     padding: 10px;
 }
 
-form .buttons-form button {
+main form .buttons-form button {
     margin: auto;
     padding: 5px 20px;
     font-size: 16px;
     color: white;
 }
 
-form .buttons-form .btn-reset {
+main form .buttons-form .btn-reset {
     margin-right: 5px;
     background-color: #666666;
     border-radius: 5px;
     border: 0;
 }
 
-form .buttons-form .btn-submit {
+main form .buttons-form .btn-submit {
     margin-left: 5px;
     background-color: #39b54a;
     border-radius: 5px;
@@ -138,7 +138,7 @@ form .buttons-form .btn-submit {
 
     /* MAIN --------------------------------*/
     .main-content {
-        margin-top: 155px;
+        margin-top: 180px;
     }
 
     /* FOOTER ------------------------------*/
