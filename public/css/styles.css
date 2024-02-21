@@ -24,6 +24,7 @@ title {
 /* ----------- HEADER HEADER HEADER ------------- */
 .header-main {
     background-color: #EAC926;
+    width: 100%;
     position: fixed;
     top: 0;
     z-index: 100;
@@ -116,7 +117,7 @@ a {
 }
 
 header .banner {
-    width: 100vw;
+    width: 100%;
     margin-top: 160px;
 }
 
@@ -297,10 +298,6 @@ footer div {
     }
 
     /* MAIN --------------------------------*/
-
-    .descripcion {
-        /* display: block; */
-    }
 
     .articulo {
         max-width: 250px;
