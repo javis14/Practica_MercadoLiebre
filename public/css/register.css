@@ -26,7 +26,7 @@ main h1 {
 .main-content {
     width: 90vw;
     margin: auto;
-    margin-top: 163px;
+    margin-top: 180px;
     text-align: center;
 }
 
@@ -121,11 +121,11 @@ main form .buttons-form .btn-submit {
 
     /* MAIN --------------------------------*/
     .main-content {
-        margin-top: 133px;
+        margin-top: 140px;
     }
 
     main h1 {
-        font-size: 30px;
+        font-size: 24px;
     }
 
     /* FOOTER ------------------------------*/
@@ -139,6 +139,7 @@ main form .buttons-form .btn-submit {
     /* MAIN --------------------------------*/
     .main-content {
         margin-top: 180px;
+        border-bottom: 100px;
     }
 
     /* FOOTER ------------------------------*/
